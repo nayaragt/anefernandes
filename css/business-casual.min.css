@@ -1,4 +1,6 @@
-body{font-family:Lora;
+body{
+	font-family:Lora;
+	/* font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
 /* background:linear-gradient(rgba(47,23,15,.65),rgba(47,23,15,.65)),url(../img/bg.jpg); */
 background:linear-gradient(rgba(47,23,15,.40),rgba(47,23,15,.40)),url(../img/bg.jpg);
 /* background:url(../img/bg.jpg); */
@@ -20,10 +22,18 @@ font-family:Raleway
 .section-heading .section-heading-lower{display:block;font-size:3rem;font-weight:100}
 .bg-faded{background-color:rgba(255,255,255,.85)}
 
+.text-muted {
+	color: #868e96!important;
+}
+
+.text-muted-b {
+	color: #fff!important;
+}
+
 /* changes */
 #mainNav{
 	/* background-color:rgba(47,23,15,.9); */
-	background-color: #000;
+	background-color: #212529;
 	font-family:Raleway
 }
 
@@ -55,7 +65,7 @@ font-weight:800}
 			padding-top:5rem;
 			padding-bottom:5rem;
 			/* background-color:rgba(230,167,86,.9) */
-			background-color: #000;
+			background-color: #212529;
 		}
 		.cta .cta-inner{
 			position:relative;
